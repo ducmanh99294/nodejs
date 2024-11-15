@@ -1,0 +1,41 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a server with Node.js</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding-left: 35%;
+            margin-top: 50px;
+        }
+        input {
+            width: 400;
+            height: 50px;
+        }
+        img {width: 400;
+        padding-bottom: 10;}
+        h5 {width: 40px;
+            padding: 10px;
+        background-color: red;
+    color: white;
+    display: inline-block;
+    }
+    p {display: inline-block;}
+    </style>
+</head>
+<html>
+            <body>
+                <h2>Login Form</h2>
+                <form action="/login" method="post">
+                    <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg" alt="">
+                    <br>
+                    <label for="username"><b>Username:</b></label><br>
+                    <input type="text" id="username" name="username" value="admin@example.com"><br><br>
+                    <label for="password"><b>Password:</b></label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    <input type="submit" value="Login" style="background-color: rgb(64, 194, 64);"><br>
+                    <h5>cancel</h5>
+                    <p style="padding-left: 220;">Forgot <a href="">Password</a></p>
+                </form>
+            </body>
+        </html>

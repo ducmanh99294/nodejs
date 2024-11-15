@@ -1,0 +1,2 @@
+username: manh
+password: 123456

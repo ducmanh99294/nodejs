@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a server with Node.js</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        select {
+            font-size: 16px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating a server with Node.js</h1>
+    <p>Hello, I'm a Node.js server for searching vehicle plate number!</p>
+
+    <!-- Dropdown chọn tỉnh thành -->
+     <div>
+    <select>
+        <% BienSoXe.forEach((BienSoXe) => { %>
+            <option><%= BienSoXe.city %></option>
+            
+            <% }) %>
+        
+    </select>
+    <div>
+        <% BienSoXe.forEach((BienSoXe) => { %>
+    <h3>Biển Số Xe: <%= BienSoXe.plate_no %></h3>
+    <% }) %>
+    </div>
+</body>
+</html>
