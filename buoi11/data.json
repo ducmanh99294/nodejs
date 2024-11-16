@@ -1,0 +1,27 @@
+[
+    
+    {
+      "customName": "Nguyen van A",
+      "date": "2024-11-20",
+      "time": "18:30:00",
+      "role": "Pending"
+    },
+    {
+    "customName": "Nguyen van B",
+    "date": "2024-11-20",
+    "time": "18:30:00",
+    "role": "Confirmed"
+  },
+  {
+  "customName": "Nguyen van C",
+  "date": "2024-11-20",
+  "time": "18:30:00",
+  "role": "Cancelled"
+},
+{
+"customName": "Nguyen van D",
+"date": "2024-11-20",
+"time": "18:30:00",
+"role": "Pending"
+}
+  ]

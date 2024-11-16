@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sửa thông tin đặt chỗ</title>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center">
+    <header class="bg-yellow-500 text-white w-full py-4 text-center text-lg font-semibold">
+        Sửa thông tin đặt chỗ
+    </header>
+
+    <form action="/booking/edit" method="post" class="bg-white shadow-md rounded-lg p-6 mt-8 w-1/3">
+        <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="customerName">Tên khách hàng</label>
+            <input type="text" id="customerName" value="Nguyen Van A" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="date">Ngày</label>
+            <input type="date" id="date" value="2024-11-20" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="time">Giờ</label>
+            <input type="time" id="time" value="18:30" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="status">Trạng thái</label>
+            <select id="status" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                <option value="Pending">Pending</option>
+                <option value="Confirmed" selected>Confirmed</option>
+                <option value="Cancelled">Cancelled</option>
+            </select>
+        </div>
+        <button type="submit" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 w-full">Lưu thay đổi</button>
+    </form>
+</body>
+</html>
