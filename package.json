@@ -1,0 +1,26 @@
+{
+  "name": "buoi1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.1",
+    "init": "^0.1.2",
+    "instead": "^1.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.4",
+    "yarn": "^1.22.22"
+  }
+}
